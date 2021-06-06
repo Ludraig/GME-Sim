@@ -3,19 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84EDC611044734BD3A0EFAC /* Pods_GME_Sim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26853A481B4E3094D9BCFF8C /* Pods_GME_Sim.framework */; };
 		F72239F2265C7D1E00451C8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72239F1265C7D1E00451C8E /* AppDelegate.swift */; };
 		F72239F4265C7D1E00451C8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72239F3265C7D1E00451C8E /* SceneDelegate.swift */; };
 		F72239F6265C7D1E00451C8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72239F5265C7D1E00451C8E /* ContentView.swift */; };
 		F72239F8265C7D1F00451C8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72239F7265C7D1F00451C8E /* Assets.xcassets */; };
 		F72239FB265C7D1F00451C8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72239FA265C7D1F00451C8E /* Preview Assets.xcassets */; };
 		F72239FE265C7D1F00451C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72239FC265C7D1F00451C8E /* LaunchScreen.storyboard */; };
+		F739803C265FCD5100E0581C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F739803B265FCD5100E0581C /* GoogleService-Info.plist */; };
+		F739803E2660585B00E0581C /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F739803D2660585B00E0581C /* Article.swift */; };
+		F7398040266120A600E0581C /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F739803F266120A600E0581C /* FirebaseReference.swift */; };
+		F73980422661220700E0581C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73980412661220700E0581C /* Constants.swift */; };
+		F73980442661273F00E0581C /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73980432661273F00E0581C /* ArticleRow.swift */; };
+		F739804626612CFD00E0581C /* ArticleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F739804526612CFD00E0581C /* ArticleItem.swift */; };
+		F739804A2661327900E0581C /* ArticleListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73980492661327900E0581C /* ArticleListener.swift */; };
+		F739804C2661376C00E0581C /* ArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F739804B2661376C00E0581C /* ArticleDetail.swift */; };
+		F739804E2661581A00E0581C /* BasketListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F739804D2661581A00E0581C /* BasketListener.swift */; };
+		F73980502661681800E0581C /* OrderBasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F739804F2661681800E0581C /* OrderBasket.swift */; };
+		F78F808C266177350096AA4D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F808B266177350096AA4D /* Extensions.swift */; };
+		F78F808E26617DD50096AA4D /* OrderBasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F808D26617DD50096AA4D /* OrderBasketView.swift */; };
+		F78F80902661DBEF0096AA4D /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F808F2661DBEF0096AA4D /* CheckoutView.swift */; };
+		F78F80922661E8BF0096AA4D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F80912661E8BF0096AA4D /* Order.swift */; };
+		F78F80942661EF610096AA4D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F80932661EF610096AA4D /* LoginView.swift */; };
+		F78F80962661EFD00096AA4D /* FinishRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F80952661EFD00096AA4D /* FinishRegistrationView.swift */; };
+		F78F80982661F0B80096AA4D /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F80972661F0B80096AA4D /* FUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B5F68E943554A4CC2EDA551 /* Pods-GME Sim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GME Sim.release.xcconfig"; path = "Target Support Files/Pods-GME Sim/Pods-GME Sim.release.xcconfig"; sourceTree = "<group>"; };
+		26853A481B4E3094D9BCFF8C /* Pods_GME_Sim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GME_Sim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A026360590185407716C88BE /* Pods-GME Sim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GME Sim.debug.xcconfig"; path = "Target Support Files/Pods-GME Sim/Pods-GME Sim.debug.xcconfig"; sourceTree = "<group>"; };
 		F72239EE265C7D1E00451C8E /* GME Sim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GME Sim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72239F1265C7D1E00451C8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F72239F3265C7D1E00451C8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,23 @@
 		F72239FA265C7D1F00451C8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F72239FD265C7D1F00451C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F72239FF265C7D1F00451C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F739803B265FCD5100E0581C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F739803D2660585B00E0581C /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		F739803F266120A600E0581C /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		F73980412661220700E0581C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F73980432661273F00E0581C /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
+		F739804526612CFD00E0581C /* ArticleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleItem.swift; sourceTree = "<group>"; };
+		F73980492661327900E0581C /* ArticleListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListener.swift; sourceTree = "<group>"; };
+		F739804B2661376C00E0581C /* ArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetail.swift; sourceTree = "<group>"; };
+		F739804D2661581A00E0581C /* BasketListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketListener.swift; sourceTree = "<group>"; };
+		F739804F2661681800E0581C /* OrderBasket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBasket.swift; sourceTree = "<group>"; };
+		F78F808B266177350096AA4D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F78F808D26617DD50096AA4D /* OrderBasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBasketView.swift; sourceTree = "<group>"; };
+		F78F808F2661DBEF0096AA4D /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		F78F80912661E8BF0096AA4D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F78F80932661EF610096AA4D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F78F80952661EFD00096AA4D /* FinishRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationView.swift; sourceTree = "<group>"; };
+		F78F80972661F0B80096AA4D /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84EDC611044734BD3A0EFAC /* Pods_GME_Sim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		809D3A35D9354CE1E074A53D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26853A481B4E3094D9BCFF8C /* Pods_GME_Sim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E804AB724601A89034AA882D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A026360590185407716C88BE /* Pods-GME Sim.debug.xcconfig */,
+				0B5F68E943554A4CC2EDA551 /* Pods-GME Sim.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F72239E5265C7D1E00451C8E = {
 			isa = PBXGroup;
 			children = (
 				F72239F0265C7D1E00451C8E /* GME Sim */,
 				F72239EF265C7D1E00451C8E /* Products */,
+				E804AB724601A89034AA882D /* Pods */,
+				809D3A35D9354CE1E074A53D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +114,30 @@
 		F72239F0265C7D1E00451C8E /* GME Sim */ = {
 			isa = PBXGroup;
 			children = (
+				F78F808D26617DD50096AA4D /* OrderBasketView.swift */,
+				F78F808B266177350096AA4D /* Extensions.swift */,
+				F78F808F2661DBEF0096AA4D /* CheckoutView.swift */,
+				F78F80932661EF610096AA4D /* LoginView.swift */,
+				F78F80952661EFD00096AA4D /* FinishRegistrationView.swift */,
+				F78F80972661F0B80096AA4D /* FUser.swift */,
+				F78F80912661E8BF0096AA4D /* Order.swift */,
 				F72239F1265C7D1E00451C8E /* AppDelegate.swift */,
 				F72239F3265C7D1E00451C8E /* SceneDelegate.swift */,
 				F72239F5265C7D1E00451C8E /* ContentView.swift */,
+				F739804F2661681800E0581C /* OrderBasket.swift */,
+				F73980492661327900E0581C /* ArticleListener.swift */,
+				F739804B2661376C00E0581C /* ArticleDetail.swift */,
+				F73980432661273F00E0581C /* ArticleRow.swift */,
+				F739804526612CFD00E0581C /* ArticleItem.swift */,
 				F72239F7265C7D1F00451C8E /* Assets.xcassets */,
 				F72239FC265C7D1F00451C8E /* LaunchScreen.storyboard */,
 				F72239FF265C7D1F00451C8E /* Info.plist */,
+				F739803B265FCD5100E0581C /* GoogleService-Info.plist */,
 				F72239F9265C7D1F00451C8E /* Preview Content */,
+				F739803D2660585B00E0581C /* Article.swift */,
+				F739804D2661581A00E0581C /* BasketListener.swift */,
+				F739803F266120A600E0581C /* FirebaseReference.swift */,
+				F73980412661220700E0581C /* Constants.swift */,
 			);
 			path = "GME Sim";
 			sourceTree = "<group>";
@@ -82,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7223A02265C7D1F00451C8E /* Build configuration list for PBXNativeTarget "GME Sim" */;
 			buildPhases = (
+				A133401ADB23E0BED4967CFC /* [CP] Check Pods Manifest.lock */,
 				F72239EA265C7D1E00451C8E /* Sources */,
 				F72239EB265C7D1E00451C8E /* Frameworks */,
 				F72239EC265C7D1E00451C8E /* Resources */,
+				26E502100A6123ACFAEF4F24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72239FE265C7D1F00451C8E /* LaunchScreen.storyboard in Resources */,
+				F739803C265FCD5100E0581C /* GoogleService-Info.plist in Resources */,
 				F72239FB265C7D1F00451C8E /* Preview Assets.xcassets in Resources */,
 				F72239F8265C7D1F00451C8E /* Assets.xcassets in Resources */,
 			);
@@ -140,14 +218,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26E502100A6123ACFAEF4F24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GME Sim/Pods-GME Sim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GME Sim/Pods-GME Sim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GME Sim/Pods-GME Sim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A133401ADB23E0BED4967CFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GME Sim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F72239EA265C7D1E00451C8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7398040266120A600E0581C /* FirebaseReference.swift in Sources */,
+				F73980442661273F00E0581C /* ArticleRow.swift in Sources */,
+				F78F80922661E8BF0096AA4D /* Order.swift in Sources */,
+				F78F80902661DBEF0096AA4D /* CheckoutView.swift in Sources */,
+				F73980502661681800E0581C /* OrderBasket.swift in Sources */,
+				F739804E2661581A00E0581C /* BasketListener.swift in Sources */,
+				F78F80962661EFD00096AA4D /* FinishRegistrationView.swift in Sources */,
+				F739803E2660585B00E0581C /* Article.swift in Sources */,
+				F739804C2661376C00E0581C /* ArticleDetail.swift in Sources */,
 				F72239F2265C7D1E00451C8E /* AppDelegate.swift in Sources */,
 				F72239F4265C7D1E00451C8E /* SceneDelegate.swift in Sources */,
+				F78F80942661EF610096AA4D /* LoginView.swift in Sources */,
+				F78F80982661F0B80096AA4D /* FUser.swift in Sources */,
+				F739804A2661327900E0581C /* ArticleListener.swift in Sources */,
 				F72239F6265C7D1E00451C8E /* ContentView.swift in Sources */,
+				F73980422661220700E0581C /* Constants.swift in Sources */,
+				F739804626612CFD00E0581C /* ArticleItem.swift in Sources */,
+				F78F808C266177350096AA4D /* Extensions.swift in Sources */,
+				F78F808E26617DD50096AA4D /* OrderBasketView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +419,7 @@
 		};
 		F7223A03265C7D1F00451C8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A026360590185407716C88BE /* Pods-GME Sim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +427,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GME Sim/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "GME Sim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +441,7 @@
 		};
 		F7223A04265C7D1F00451C8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B5F68E943554A4CC2EDA551 /* Pods-GME Sim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +449,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GME Sim/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "GME Sim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
